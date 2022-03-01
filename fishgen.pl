@@ -74,6 +74,7 @@ $fc1[$i]=~s/\"//g;
 @fc1_pos=split(/\t/,$fc1[$i]);
 $fc1_pos[1]=$fc1_pos[1]*100;
 $fc1_pos[2]=$fc1_pos[2]*100;
+$fc1_pos[0]=~s/[^0-9]//g;
 print file2 "$fc1_pos[0]\t$fc1_pos[1]\t$fc1_pos[2]\n";
 }
 close(file2);
