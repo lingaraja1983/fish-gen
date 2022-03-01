@@ -7,6 +7,14 @@ The input file containing clonal cellularity / cancer cell fraction at two time 
 
 #Reference https://rdrr.io/github/chrisamiller/fishplot/ 
 
+# Download
+
+git clone https://github.com/lingaraja1983/fish-gen.git
+
+cd fish_gen
+
+#unzip SID_CLONES.zip
+
 # Syntax for running the program
 perl fishgen.pl -i meta_file.txt -o <output_dir>
 #
