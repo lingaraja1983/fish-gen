@@ -18,9 +18,9 @@ cd fish_gen
 # Syntax for running the program
 perl fishgen.pl -i meta_file.txt -o <output_dir>
 #
--i <input meta file> e.g. meta_file.txt
+-i input meta file e.g. meta_file.txt
 
--0 <output_dir> specify output directory for creating fishplots
+-0 output_dir specify output directory for creating fishplots
 #
 
 #meta_file.txt contains two tab separated column SID and path of CCF/clonal cellularity file.
